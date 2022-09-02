@@ -1,0 +1,71 @@
+.meet {
+    background: rgb(200, 181, 181);
+    // height: 900px;
+    position: relative;
+}
+
+.colot {
+    background: yellow;
+    width: 300px;
+    height: 400px;
+    margin-left: -11px;
+    margin-top: 130px;
+    position: relative;
+
+}
+
+.foto {
+
+    img {
+        width: 300px;
+        position: absolute;
+        bottom: 60px;
+        height: 400px;
+        left: 140px;
+    }
+}
+
+.jenny {
+    left: 168px;
+    top: 56px;
+    position: absolute;
+}
+
+.des {
+    margin-top: 150px !important;
+    margin-right: 220px;
+
+    h3 {
+
+        font-size: 70px;
+        font-family: $font;
+    }
+
+    p {
+        width: 350px;
+
+    }
+
+}
+
+.l {
+    border: 2px solid rgb(0, 0, 0);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+
+    :hover {
+
+        color: red;
+    }
+
+    ::after {
+        content: "->";
+        border-left: 2px solid rgb(0, 0, 0);
+        margin-left: 20px;
+        padding: 10px;
+
+
+    }
+
+}

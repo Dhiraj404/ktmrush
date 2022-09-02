@@ -1,0 +1,579 @@
+@import url("https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap");
+.bgMarket {
+  background: red;
+  background-color: rgb(222, 226, 212) !important;
+  height: 500px;
+  border-bottom: 1px solid black;
+}
+
+.ll {
+  margin-left: -263px;
+}
+.ll .img-Market {
+  width: 250px;
+  height: 400px;
+  border-radius: 90px;
+}
+
+.rotate {
+  transform: rotate(-90deg);
+  margin-left: -43px;
+  margin-top: 44px;
+  border-top: none !important;
+  border: 1px solid black;
+}
+.rotate p {
+  text-transform: uppercase;
+  padding: 12px 13px 0 13px;
+  font-weight: lighter;
+}
+
+.women {
+  width: 100px;
+  height: 140px;
+}
+
+.brand {
+  margin: auto;
+  z-index: 2;
+}
+.brand p::before {
+  content: " ";
+  display: block;
+  height: 1px;
+  width: 100px;
+  position: absolute;
+  background: rgb(0, 0, 0);
+  left: 347px;
+  top: 179px;
+}
+.brand h2 {
+  width: 300px;
+  margin-left: -60px;
+}
+
+.a {
+  position: absolute;
+  top: 11px !important;
+  right: 4px !important;
+}
+
+/* Large desktops and laptops */
+/* Landscape tablets and medium desktops */
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  .foto img {
+    width: 180px !important;
+    top: -430px;
+  }
+  .feature {
+    display: none;
+  }
+  .tex {
+    width: 210px !important;
+  }
+  .arr i {
+    display: none !important;
+  }
+  .kRotate p {
+    display: none;
+  }
+  .app p {
+    width: 350px;
+  }
+  .brand p::before {
+    content: " ";
+    display: none;
+  }
+  .colour {
+    display: none;
+  }
+  .ol {
+    display: none;
+  }
+  .qw {
+    display: none;
+  }
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  .foto img {
+    width: 180px !important;
+    top: -430px;
+  }
+  .feature {
+    display: none;
+  }
+  .tex {
+    width: 210px !important;
+  }
+  .arr i {
+    display: none !important;
+  }
+  .kRotate p {
+    display: none;
+  }
+  .app p {
+    width: 350px;
+  }
+  .brand p::before {
+    content: " ";
+    display: none;
+  }
+  .colour {
+    display: none;
+  }
+  .ol {
+    display: none;
+  }
+  .qw {
+    display: none;
+  }
+}
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  .foto img {
+    width: 180px !important;
+    top: -430px;
+  }
+  .feature {
+    display: none;
+  }
+  .tex {
+    width: 210px !important;
+  }
+  .arr i {
+    display: none !important;
+  }
+  .kRotate p {
+    display: none;
+  }
+  .app p {
+    width: 350px;
+  }
+  .brand p::before {
+    content: " ";
+    display: none;
+  }
+  .app {
+    background: rgb(72, 69, 69);
+    color: white;
+  }
+  .app h1 {
+    width: 300px;
+  }
+  .respon img {
+    width: 120px !important;
+  }
+  .colour {
+    display: none;
+  }
+  .ol {
+    display: none;
+  }
+  .qw {
+    display: none;
+  }
+}
+.dsf {
+  border-left: 1px solid rgb(0, 0, 0);
+  height: 60px;
+  margin-left: 50%;
+}
+
+.aas {
+  position: relative;
+}
+
+.hehe {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.field {
+  margin-top: -17px !important;
+  padding: 20px;
+}
+
+.one {
+  padding: 45px 0 85px 0;
+}
+
+.three {
+  padding: 45px 0 85px 0;
+}
+
+.offer {
+  background: rgb(212, 212, 193);
+  border-bottom: 1px solid black;
+}
+
+.butn {
+  width: 190px;
+  border: 1px solid black !important;
+  font-size: 12px !important;
+}
+
+.fontt {
+  font-family: "Qwitcher Grypen", cursive;
+  font-size: 40px;
+}
+
+.fonttt {
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+}
+
+.meet {
+  background: rgb(200, 181, 181);
+  position: relative;
+}
+
+.colot {
+  background: yellow;
+  width: 300px;
+  height: 400px;
+  margin-left: -11px;
+  margin-top: 130px;
+  position: relative;
+}
+
+.foto img {
+  width: 300px;
+  position: absolute;
+  bottom: 60px;
+  height: 400px;
+  left: 140px;
+}
+
+.jenny {
+  left: 168px;
+  top: 56px;
+  position: absolute;
+}
+
+.des {
+  margin-top: 150px !important;
+  margin-right: 220px;
+}
+.des h3 {
+  font-size: 70px;
+  font-family: "Qwitcher Grypen", cursive;
+}
+.des p {
+  width: 350px;
+}
+
+.l {
+  border: 2px solid rgb(0, 0, 0);
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+}
+.l :hover {
+  color: red;
+}
+.l ::after {
+  content: "->";
+  border-left: 2px solid rgb(0, 0, 0);
+  margin-left: 20px;
+  padding: 10px;
+}
+
+.feature {
+  background: rgb(200, 181, 181);
+  position: relative;
+}
+.feature .fet {
+  font-family: "Qwitcher Grypen", cursive;
+  font-size: 40px;
+}
+.feature p::after {
+  content: " ";
+  display: inline-block;
+  height: 1px;
+  width: 86%;
+  max-width: 100%;
+  position: absolute;
+  justify-content: center;
+  background: rgb(0, 0, 0);
+  top: 46px;
+  left: 190px;
+}
+
+.mid {
+  width: 100%;
+}
+
+.pos {
+  margin-top: 25%;
+}
+
+.app {
+  background: rgb(72, 69, 69);
+  color: white;
+}
+.app a::after {
+  content: "->";
+  color: rgb(0, 0, 0);
+  border-left: 1px solid black;
+  padding: 5px;
+  padding: 14px 14px 14px 14px;
+  margin-left: 12px;
+}
+
+.as {
+  width: 450px;
+}
+
+.learn {
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 5px;
+  color: rgb(0, 0, 0);
+  background: rgb(179, 132, 66);
+  padding: 14px 14px 14px 14px;
+}
+
+.kind {
+  background: rgb(219, 209, 158);
+  height: 500px;
+}
+
+.kRotate p {
+  transform: rotate(-90deg);
+  font-family: "Qwitcher Grypen", cursive;
+  font-size: 40px;
+}
+.kRotate h6 {
+  font-weight: lighter;
+  margin-top: 20px;
+}
+
+.tex {
+  width: 500px;
+}
+
+.circ {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.kindRotate img {
+  border-radius: 50%;
+}
+
+.aleft {
+  border: 1px solid black;
+  padding: 12px 17px 12px 12px;
+}
+
+.arr {
+  margin-top: 340px;
+}
+
+.aright {
+  border-left: none !important;
+  border: 1px solid black;
+  padding: 12px 17px 12px 12px;
+}
+
+.free {
+  background: rgb(151, 126, 162);
+  height: 500px;
+}
+.freea {
+  background: rgb(151, 126, 162);
+}
+
+.fre p {
+  font-family: "Qwitcher Grypen", cursive;
+  font-size: 40px;
+}
+
+.hacks {
+  text-align: center;
+  line-height: 2;
+}
+.hacks h2 {
+  margin-top: 25%;
+}
+.colour {
+  width: 300px;
+  height: 400px;
+  background: red;
+  margin-top: 60px;
+}
+.colour img {
+  width: 250px;
+  height: 300px;
+  position: absolute;
+  right: 210px;
+  bottom: 145px;
+}
+
+.herum {
+  transform: rotate(-90deg);
+}
+
+.tt p {
+  width: 200px !important;
+}
+
+.wallet {
+  width: 120px;
+}
+
+.img-resp {
+  width: 200px !important;
+}
+
+.as {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.as p {
+  width: 200px !important;
+  font-size: 12px;
+  line-height: 1.4;
+  margin: 12px 0 22px 0;
+}
+
+.lo {
+  margin-left: -50px !important;
+}
+
+.rig {
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.rig p {
+  width: 200px !important;
+  font-size: 12px;
+  line-height: 1.4;
+  margin: 12px 0 22px 0;
+}
+
+.menu {
+  background: rgb(72, 69, 69);
+  color: white;
+}
+
+.po span {
+  border: 2px solid rgb(255, 238, 238);
+  border-radius: 80%;
+  padding: 30px;
+  font-size: 60px;
+  counter-reset: red;
+}
+
+.super {
+  font-family: "Qwitcher Grypen", cursive;
+  margin-top: 70px;
+  font-size: 30px;
+}
+
+.mtt {
+  margin-top: 105px !important;
+}
+
+.mtp {
+  margin-top: 49px !important;
+}
+
+.end p {
+  font-size: 10px;
+  margin-left: 195px;
+}
+
+.endd p {
+  font-size: 10px;
+  margin-right: 110px;
+}
+
+.im {
+  margin-left: 120px;
+}
+
+.freeab {
+  background: rgb(151, 126, 162);
+  padding: 30px 0 150px 0;
+}
+
+.hera {
+  background: rgb(89, 85, 85);
+  display: float;
+  color: white;
+}
+
+.jq {
+  width: 500px;
+}
+
+.saq {
+  width: 34px;
+  height: 30px;
+  background: yellow;
+}
+
+.hom {
+  margin-top: 50px;
+}
+
+.dsfa {
+  border-left: 1px solid rgb(0, 0, 0);
+  height: 320px;
+  margin-left: 15%;
+}
+
+.qw {
+  margin-top: 10% !important;
+}
+
+.down {
+  background: rgb(0, 174, 255);
+  padding: 5px;
+  border: none;
+  margin-left: 20%;
+}
+
+.brb {
+  border-bottom: 20px solid black solid red;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ok {
+  border-bottom: 1px solid rgb(0, 0, 0);
+  background-color: rgb(222, 226, 212) !important;
+}
+
+.disabledd {
+  border-left: 1px solid black !important;
+}
+
+.design::after {
+  content: " design";
+  font-family: "Qwitcher Grypen", cursive;
+  position: relative;
+  bottom: 14px;
+  left: 9px;
+  font-size: 30px;
+}
+
+.nav-port {
+  font-weight: lighter !important;
+}
+
+.navText {
+  text-transform: uppercase;
+  font-size: 12px !important;
+  padding-left: 22px !important;
+}
+
+.contactNav {
+  margin-right: 46px !important;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,36 @@
+.feature {
+    background: rgb(200, 181, 181);
+    // height: 1500px;
+    position: relative;
+
+
+    .fet {
+        font-family: $font;
+        font-size: 40px;
+    }
+
+    p::after {
+
+        content: " ";
+        display: inline-block;
+        height: 1px;
+        width: 86%;
+        max-width: 100%;
+        position: absolute;
+        justify-content: center;
+        background: rgb(0, 0, 0);
+        top: 46px;
+        left: 190px;
+
+    }
+}
+
+.mid {
+    width: 100%;
+    // position: absolute;
+}
+
+.pos {
+    // top: 50;
+    margin-top: 25%;
+}

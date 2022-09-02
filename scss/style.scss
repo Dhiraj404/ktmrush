@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&display=swap');
+$font: 'Qwitcher Grypen', cursive;
+$backgroundColor: rgb(222, 226, 212) !important;
+
+@import"div2";
+@import"mediaQuery";
+@import"offer";
+@import"meet";
+@import"featured";
+@import"holistic";
+@import"kind";
+@import"resources";
+@import"try";
+@import"hr";
+
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ok {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background-color: $backgroundColor;
+}
+
+.disabledd {
+    border-left: 1px solid black !important;
+
+}
+
+.design::after {
+    content: " design";
+    font-family: $font;
+    position: relative;
+    bottom: 14px;
+    left: 9px;
+    font-size: 30px;
+}
+
+.nav-port {
+    font-weight: lighter !important;
+}
+
+.navText {
+    text-transform: uppercase;
+    font-size: 12px !important;
+    padding-left: 22px !important;
+
+
+}
+
+.contactNav {
+    margin-right: 46px !important;
+}

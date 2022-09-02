@@ -1,0 +1,190 @@
+/* Large desktops and laptops */
+@media (min-width: 1200px) {}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    .foto {
+        img {
+            width: 180px !important;
+            top: -430px;
+        }
+    }
+
+    .feature {
+        display: none;
+
+    }
+
+    .tex {
+        width: 210px !important;
+        ;
+    }
+
+    .arr {
+        i {
+            display: none !important;
+        }
+    }
+
+    .kRotate {
+        p {
+            display: none;
+        }
+    }
+
+    .app {
+        p {
+            width: 350px;
+        }
+    }
+
+    .brand p::before {
+        content: " ";
+        display: none;
+
+    }
+
+    .colour {
+        display: none;
+    }
+
+    .ol {
+        display: none
+    }
+
+    .qw {
+        display: none
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+    .foto {
+        img {
+            width: 180px !important;
+            top: -430px;
+        }
+    }
+
+    .feature {
+        display: none;
+
+    }
+
+    .tex {
+        width: 210px !important;
+        ;
+    }
+
+    .arr {
+        i {
+            display: none !important;
+        }
+    }
+
+    .kRotate {
+        p {
+            display: none;
+        }
+    }
+
+    .app {
+        p {
+            width: 350px;
+        }
+    }
+
+    .brand p::before {
+        content: " ";
+        display: none;
+
+    }
+
+    .colour {
+        display: none;
+    }
+
+    .ol {
+        display: none
+    }
+
+    .qw {
+        display: none
+    }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+    .foto {
+        img {
+            width: 180px !important;
+            top: -430px;
+        }
+    }
+
+    .feature {
+        display: none;
+
+    }
+
+    .tex {
+        width: 210px !important;
+        ;
+    }
+
+    .arr {
+        i {
+            display: none !important;
+        }
+    }
+
+    .kRotate {
+        p {
+            display: none;
+        }
+    }
+
+    .app {
+        p {
+            width: 350px;
+        }
+    }
+
+    .brand p::before {
+        content: " ";
+        display: none;
+
+    }
+
+    .app {
+        background: rgb(72, 69, 69);
+        color: white;
+
+        h1 {
+            width: 300px;
+        }
+    }
+
+    .respon {
+        img {
+            width: 120px !important;
+        }
+    }
+
+    .colour {
+        display: none;
+    }
+
+    .ol {
+        display: none
+    }
+
+    .qw {
+        display: none
+    }
+}

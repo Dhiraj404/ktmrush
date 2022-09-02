@@ -1,0 +1,36 @@
+.app {
+    background: rgb(72, 69, 69);
+    color: white;
+    // position: relative;
+
+
+
+    a::after {
+        content: "->";
+        color: rgb(0, 0, 0);
+        border-left: 1px solid black;
+        padding: 5px;
+        padding: 14px 14px 14px 14px;
+        margin-left: 12px;
+
+
+    }
+
+
+
+}
+
+.as {
+    width: 450px;
+
+}
+
+.learn {
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    background: rgb(179, 132, 66);
+    padding: 14px 14px 14px 14px;
+
+}

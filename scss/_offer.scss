@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
+
+$tab: 45px 0 85px 0;
+
+.dsf {
+    border-left: 1px solid rgb(0, 0, 0);
+    height: 60px;
+    margin-left: 50%;
+    // position: absolute;
+    // left: 660px;
+
+}
+
+.aas {
+    position: relative;
+}
+
+.hehe {
+    border: 1px solid rgb(0, 0, 0);
+
+}
+
+.field {
+    margin-top: -17px !important;
+    padding: 20px;
+}
+
+.one {
+    padding: $tab;
+}
+
+.three {
+    padding: $tab;
+
+
+}
+
+.offer {
+    background: rgb(212, 212, 193);
+    border-bottom: 1px solid black;
+}
+
+.butn {
+    width: 190px;
+    border: 1px solid black !important;
+    font-size: 12px !important;
+    // border-radius: none !important;
+    // position: absolute;
+}
+
+.fontt {
+    font-family: $font;
+
+    font-size: 40px;
+}
+
+.fonttt {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+}

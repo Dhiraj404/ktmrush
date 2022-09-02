@@ -1,0 +1,53 @@
+.kind {
+    background: rgb(219, 209, 158);
+    height: 500px;
+
+}
+
+.kRotate {
+    p {
+        transform: rotate(-90deg);
+        font-family: $font;
+        font-size: 40px;
+    }
+
+    h6 {
+        font-weight: lighter;
+        margin-top: 20px;
+    }
+
+}
+
+.tex {
+
+    width: 500px;
+}
+
+
+.circ {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.kindRotate {
+    img {
+        border-radius: 50%;
+    }
+}
+
+.aleft {
+    border: 1px solid black;
+    padding: 12px 17px 12px 12px;
+}
+
+.arr {
+    margin-top: 340px;
+}
+
+.aright {
+    border-left: none !important;
+    border: 1px solid black;
+    padding: 12px 17px 12px 12px;
+
+
+}

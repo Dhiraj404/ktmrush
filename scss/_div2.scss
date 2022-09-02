@@ -1,0 +1,74 @@
+.bgMarket {
+    background: red;
+    background-color: $backgroundColor;
+    // position: relative;
+    height: 500px;
+    border-bottom: 1px solid black;
+}
+
+
+.ll {
+    margin-left: -263px;
+
+    .img-Market {
+        width: 250px;
+        // padding: 15px;
+        // margin-left: 430px;
+        height: 400px;
+        // border: 1px solid red;
+        border-radius: 90px;
+
+    }
+
+}
+
+.rotate {
+    // background: red;
+    // position: absolute;
+    // bottom: 110;
+    transform: rotate(-90deg);
+    margin-left: -43px;
+    margin-top: 44px;
+    border-top: none !important;
+    border: 1px solid black;
+
+    p {
+        text-transform: uppercase;
+        padding: 12px 13px 0 13px;
+        font-weight: lighter;
+    }
+}
+
+.women {
+    width: 100px;
+    height: 140px;
+}
+
+.brand {
+    margin: auto;
+    z-index: 2;
+
+    p::before {
+        content: " ";
+        display: block;
+        height: 1px;
+        width: 100px;
+        position: absolute;
+        background: rgb(0, 0, 0);
+        left: 347px;
+        top: 179px;
+
+    }
+
+    h2 {
+        width: 300px;
+        margin-left: -60px;
+
+    }
+}
+
+.a {
+    position: absolute;
+    top: 11px !important;
+    right: 4px !important;
+}
